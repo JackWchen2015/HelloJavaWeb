@@ -1,10 +1,10 @@
 package Demo;
 
-import cn.itcast.commons.CommonUtils;
-import cn.itcast.jdbc.TxQueryRunner;
-import dao.CustomerDao;
-import domain.Customer;
-import org.apache.commons.dbutils.QueryRunner;
+        import cn.itcast.commons.CommonUtils;
+        import cn.itcast.jdbc.TxQueryRunner;
+        import dao.CustomerDao;
+        import domain.Customer;
+        import org.apache.commons.dbutils.QueryRunner;
 
 /**
  * Created by codingBoy on 16/10/23.
@@ -16,7 +16,7 @@ public class Demo
     {
         CustomerDao customerDao=new CustomerDao();
 
-        for (int i=0;i<1000;i++)
+        for (int i=0;i<100;i++)
         {
             Customer customer=new Customer();
             customer.setId(CommonUtils.uuid());

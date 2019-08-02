@@ -45,8 +45,6 @@ public class CustomerService
     public PageBean<Customer> query(Customer customer,int pc,int pr)
     {
         return customerDao.query(customer,pc,pr);
-
-
     }
 
 }

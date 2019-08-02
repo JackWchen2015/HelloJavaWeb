@@ -19,7 +19,6 @@ import java.util.spi.CurrencyNameProvider;
 public class CustomerDao
 {
     private QueryRunner qr=new TxQueryRunner();
-
     public void add(Customer c)
     {
         try {
